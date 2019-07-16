@@ -6,6 +6,14 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="css/bootstrap.css">
     </head>
+    <style>
+      body {
+          background-image: url(imagens/fundo.jpg);
+          background-attachment: fixed;
+          background-size: 200%;
+          background-repeat: no-repeat;
+      }
+    </style>
     <body>
             <div class="jumbotron jumbotron-fluid">
               <div class="container">
@@ -21,7 +29,7 @@
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
                   <ul class="navbar-nav">
                     <li class="nav-item active">
-                      <a class="nav-link" href="#">Produtos <span class="sr-only">(current)</span></a>
+                      <a class="nav-link" href="produtos.html">Produtos <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item dropdown">
                       <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -29,7 +37,7 @@
                       </a>
                       <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                         <a class="dropdown-item" href="#">WhatsApp</a>
-                        <a class="dropdown-item" href="#">Instagram</a>
+                        <a class="dropdown-item" href="https://www.instagram.com/m10_sportspremium/">Instagram</a>
                         <a class="dropdown-item" href="#">Gmail</a>
                       </div>
                     </li>
@@ -49,6 +57,9 @@
                 <div class="carousel-item">
                   <img src="imagens/c3.jpeg" class="d-block w-50" alt="...">
                 </div>
+                <div class="carousel-item">
+                  <img src="imagens/c4.jpeg" class="d-block w-50" alt="...">
+                </div>
               </div>
               <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -61,84 +72,45 @@
             </div>
             </center>
             <br>
-            <div class="accordion" id="accordionExample">
-                <div class="card">
-                  <div class="card-header" id="headingOne">
-                    <h2 class="mb-0">
-                      <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                        Camisa manga longa
-                      </button>
-                    </h2>
-                  </div>
-                  <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
-                      <table>
-                          <tr>
-                               <td>
-                                      <img src="imagens/foto1.jpeg"class="d-block w-100"  alt="...">
-                               </td>
-                               <td>
-                                      <img src="imagens/foto2.jpeg"class="d-block w-100"  alt="...">
-                               </td>
-                          </tr>
-                      </table>
-                      <table>
-                               <td>
-                                      <img src="imagens/foto3.jpeg"class="d-block w-100"  alt="...">
-                               </td>
-                               <td>
-                                      <img src="imagens/foto4.jpeg"class="d-block w-100"  alt="...">
-                               </td>
-                          </tr>
-                     </table>
-                     <table>
-                        <tr>
-                             <td>
-                                    <img src="imagens/foto5.jpeg"class="d-block w-100"  alt="...">
-                             </td>
-                             <td>
-                                    <img src="imagens/foto6.jpeg"class="d-block w-100"  alt="...">
-                             </td>
-                        </tr>
-                    </table>
-                    <table>
-                             <td>
-                                    <img src="imagens/foto7.jpeg"class="d-block w-100"  alt="...">
-                             </td>
-                             <td>
-                                    <img src="imagens/foto8.jpeg"class="d-block w-100"  alt="...">
-                             </td>
-                        </tr>
-                   </table>
+            <table class="table table-dark">
+                <thead>
+                  <tr>
+                    <th scope="col">Camisas</th>
+                    <th scope="col">Preços</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>1 camisa</td>
+                    <td>120 reais</td>
+                  </tr>
+                  <tr>
+                    <td>2 camisas</td>
+                    <td>200 reais</td>
+                  </tr>
+                  <tr>
+                    <td>3 camisas</td>
+                    <td>270 reais</td>
+                  </tr>
+                  <tr>
+                      <td>Personalizadas</td>
+                      <td>+ 15 reais em cada</td>
+                    </tr>
+                </tbody>
+              </table>
+              <div class="jumbotron jumbotron-fluid">
+                  <div class="container">
+                    <h1 class="display-4">Formas de Pagamento</h1>
+                    <p class="lead">Aceitamos Cartão de crédito, Depósito, Transferência ou boleto bancário!
+                        No boleto o pagamento leva 3 dias úteis para ser confirmado, Já nas outras formas de pagamento, é confirmado em um dia útil, Seu pedido será preparado para o envio após a confirmação,
+                         E então será postado, fica a seu critério escolher qual forma de pagamento é melhor para você!</p>
                   </div>
                 </div>
-            </div>
-            <div class="card">
-                <div class="card-header" id="headingTwo">
-                  <h2 class="mb-0">
-                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                      Camisa manga curta
-                    </button>
-                  </h2>
-                </div>
-                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
-                    <table>
-                        <tr>
-                             <td>
-                                    <img src="imagens/foto9.jpeg" class="d-block w-100"  alt="...">
-                             </td>
-                             <td>
-                                    <img src="imagens/foto10.jpeg"class="d-block w-100"  alt="...">
-                             </td>
-                        </tr>
-                    </table>
-                </div>
-              </div>
-            <br> 
             <center>
                 <table>
                     <tr>
-                        <td><a href="#"><img src="imagens/instagram.png" height="50" width="50" class="rounded-pill"></a></td>
-                        <td><a href="#"><img src="imagens/facebook.png" height="50" width="50" class="rounded-pill"></a></td>
+                        <td><a href="https://www.instagram.com/m10_sportspremium/"><img src="imagens/instagram.png" height="50" width="50" class="rounded-pill"></a></td>
+                        <td><a href="#"><img src="imagens/whats.png" height="50" width="50" class="rounded-pill"></a></td>
                         <td><a href="#"><img src="imagens/gmail.png" height="40" width="50"></a></td>
                     </tr>
                </table>
